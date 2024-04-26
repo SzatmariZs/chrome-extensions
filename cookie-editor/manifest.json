@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Cookie Editor",
+  "description": "Add and retreive cookie values",
+  "version": "1.0",
+  "action": {
+    "default_popup": "cookie-editor.html",
+    "default_icon": "assets/icon.png"
+  },
+  "host_permissions": ["<all_urls>"],
+  "permissions": ["cookies"]
+}
