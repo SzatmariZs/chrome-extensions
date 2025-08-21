@@ -1,0 +1,35 @@
+body {
+  background: skyblue;
+  font-family: Garamond;
+  font-size: 16px;
+  min-width: 170px;
+}
+
+form {
+  display: grid;
+  gap: 8px;
+  columns: 1;
+}
+
+textarea {
+  width: 100%;
+}
+
+.button-container {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 4px;
+}
+
+button {
+  background: blue;
+  color: whitesmoke;
+  font: Garamond, 18px;
+  border: 1px solid blue;
+  border-radius: 8px;
+}
+
+p {
+  margin: 0;
+  min-height: calc(1em + 4px);
+}

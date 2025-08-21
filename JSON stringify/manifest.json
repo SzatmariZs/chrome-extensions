@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "JSON stringify",
+  "description": "Stringify JS into JSON",
+  "version": "1.0",
+  "action": {
+    "default_popup": "json-stringify.html",
+    "default_icon": "assets/icon.png"
+  },
+  "host_permissions": ["<all_urls>"],
+  "permissions": []
+}
